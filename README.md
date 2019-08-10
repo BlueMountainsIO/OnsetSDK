@@ -1,5 +1,4 @@
-Windows
--------
+#### Windows
 Add folder "include" to VC++ Directories -> Include Directories
 Add folder "lib" to VC++ Directoriers -> Library Directories
 Add "Lua.lib" and "HorizonServer.lib" to Linker -> Input
@@ -8,8 +7,7 @@ Set C/C++ -> Language -> C++ Language Standard to "ISO C++17 Standard"
 Output as Dynamic Link Library (".dll")
 
 
-Linux
------
+#### Linux
 Compiler flags: -m64 -fPIC -std=gnu++17
 Linker flags: -shared
 Link libluaplugin.a
@@ -17,12 +15,12 @@ Link libluaplugin.a
 Output as shared object (".so")
 
 ### OPEN SOURCE LICENSE NOTICE FOR USE WITH ONSET
-
-This Open Source License (“License”) applies to any use by you of the source and object code for the video game with 
-the title Onset (“Game”) as provided here by Blue Mountains GmbH (“we,” “us,” or “our”), including any code 
-created prior or after this date, (“Code”) and any derivatives of the Code (“Derivatives”) as well as any source and 
-object code from a contributor embedded in the Code or the Derivatives (“Contributor Code”) (the Code, 
-Derivatives, and Contributor Code, collectively, the “Licensed Code”).
+-------
+This Open Source License (â€œLicenseâ€) applies to any use by you of the source and object code for the video game with 
+the title Onset (â€œGameâ€) as provided here by Blue Mountains GmbH (â€œwe,â€ â€œus,â€ or â€œourâ€), including any code 
+created prior or after this date, (â€œCodeâ€) and any derivatives of the Code (â€œDerivativesâ€) as well as any source and 
+object code from a contributor embedded in the Code or the Derivatives (â€œContributor Codeâ€) (the Code, 
+Derivatives, and Contributor Code, collectively, the â€œLicensed Codeâ€).
 
 By using the Licensed Code you agree to and are legally bound by the terms and conditions of this License. If you do 
 not agree to the terms and conditions of this License, do not use the Licensed Code and any use of the Licensed 
@@ -30,7 +28,7 @@ Code outside of the terms and Conditions of the License is an infringement of th
 
 Grant. We grant you the worldwide, revocable, royalty-free, and nonsublicensable, rights to use the Licensed Code 
 as follows: To reproduce, modify, display, perform, sublicense and distribute the Licensed Code solely to use the 
-Licensed Code with and within the Game. (“Grant”) This Grant does not permit you to use our trade names, 
+Licensed Code with and within the Game. (â€œGrantâ€) This Grant does not permit you to use our trade names, 
 trademarks, service marks, or names, except as required for reasonable and customary use in describing the origin of 
 the Licensed Content and reproducing the content of the copyright notice below. Nothing in this License shall be 
 construed to grant you any ownership whatsoever in the Licensed Code and the property and intellectual property 

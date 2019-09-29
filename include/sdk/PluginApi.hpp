@@ -14,9 +14,9 @@ see https://bluemountains.io/Onset_OpenSourceSoftware_License.txt
 
 #pragma once
 
-namespace Lua { namespace _internal { class EventArguments; } }
+#include "LuaTypes.hpp"
 
-namespace hrzn
+namespace Onset
 {
 	class IBaseInterface
 	{
@@ -36,8 +36,7 @@ namespace hrzn
 		virtual float GetDeltaSeconds() = 0;
 
 		// Call an event in Lua which was defined by AddEvent
-		virtual void CallEvent(const char *EventName,
-			Lua::_internal::EventArguments *Arguments) = 0;
+		virtual bool CallEvent(const char *EventName, Lua::LuaArgs_t *Arguments = nullptr) = 0;
 
 		virtual ~IServerPlugin() { }
 	};

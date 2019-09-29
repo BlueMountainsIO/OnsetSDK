@@ -38,6 +38,9 @@ namespace Onset
 		// Call an event in Lua which was defined by AddEvent
 		virtual bool CallEvent(const char *EventName, Lua::LuaArgs_t *Arguments = nullptr) = 0;
 
+		// Call a remote event
+		virtual void CallRemoteEvent(const char *EventName, Lua::LuaArgs_t *Arguments = nullptr) = 0;
+
 		virtual ~IServerPlugin() { }
 	};
 

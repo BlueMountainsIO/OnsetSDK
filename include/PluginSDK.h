@@ -50,7 +50,6 @@ see https://bluemountains.io/Onset_OpenSourceSoftware_License.txt
 
 #ifdef __cplusplus
 #include "sdk/LuaFunctionUtils.hpp"
-#include "sdk/LuaEvent.hpp"
 #include "sdk/LuaTable.hpp"
 #include "sdk/LuaFunction.hpp"
 #include "sdk/LuaValueLuaImpl.hpp"

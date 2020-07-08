@@ -42,6 +42,12 @@ namespace Lua
 			return _table.find(LuaValue(key)) != _table.end();
 		}
 		
+		template<typename T>
+		inline bool Remove(T key)
+		{
+			return _table.erase(LuaValue(key)) == 1;
+		}
+		
 		inline int Count()
 		{
 			return static_cast<int>(_table.size());

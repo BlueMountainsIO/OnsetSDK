@@ -1,7 +1,7 @@
 #### Windows
 Add folder "include" to VC++ Directories -> Include Directories
 Add folder "lib" to VC++ Directoriers -> Library Directories
-Add "Lua.lib" and "HorizonServer.lib" to Linker -> Input
+Add "Lua.lib" to Linker -> Input
 Set C/C++ -> Language -> C++ Language Standard to "ISO C++17 Standard"
 
 Output as Dynamic Link Library (".dll")
@@ -40,7 +40,7 @@ Obligations. The Grant is subject to your express compliance with the following 
 the License and to the disclaimer of warranties. You shall include a copy of such notices and a copy of the 
 License with every copy of the Licensed Code you distribute or communicate as follows:
 
-Copyright (C) 2019 Blue Mountains GmbH
+Copyright (C) 2020 Blue Mountains GmbH
 
 This program is free software: you can redistribute it and/or modify it under the terms of the Onset Open Source 
 License as published by Blue Mountains GmbH.
